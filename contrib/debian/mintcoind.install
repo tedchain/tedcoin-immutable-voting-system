@@ -1,0 +1,2 @@
+debian/bin/tedcoind usr/bin
+src/tedcoind usr/lib/tedcoin
