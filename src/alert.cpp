@@ -1,5 +1,5 @@
 //
-// Alert system
+// Alert system.
 //
 
 #include <boost/foreach.hpp>
