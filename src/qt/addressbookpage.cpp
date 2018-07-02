@@ -138,7 +138,7 @@ void AddressBookPage::setModel(AddressTableModel *model)
     ui->tableView->setModel(proxyModel);
     ui->tableView->sortByColumn(0, Qt::AscendingOrder);
 
-    // Set column widths
+    // Set column widths.
 	#if QT_VERSION < 0x050000 
     ui->tableView->horizontalHeader()->resizeSection(
             AddressTableModel::Address, 320);
