@@ -3,7 +3,7 @@ Name "@PACKAGE_NAME@ (@WINDOWS_BITS@-bit)"
 RequestExecutionLevel highest
 SetCompressor /SOLID lzma
 
-# General Symbol Definitions
+# General Symbol Definitions.
 !define REGKEY "SOFTWARE\$(^Name)"
 !define VERSION @CLIENT_VERSION_MAJOR@.@CLIENT_VERSION_MINOR@.@CLIENT_VERSION_REVISION@
 !define COMPANY "Tedcoin project"
